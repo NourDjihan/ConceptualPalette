@@ -20,6 +20,6 @@ ConceptualPaletteTest >> testAssignColor [
 	palette assignColor: borderColor to: #border.
 	
 	self  
-		assert: (palette colorFor: #border) 
+		assert: (palette colorOf: #border) 
 		equals: borderColor.
 ]

@@ -14,7 +14,7 @@ ConceptualPalette >> assignColor: aColor to: aSymbol [
 ]
 
 { #category : #private }
-ConceptualPalette >> colorFor: aSymbol [
+ConceptualPalette >> colorOf: aSymbol [
 
 	^ colors at: aSymbol
 ]
